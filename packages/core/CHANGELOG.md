@@ -1,5 +1,31 @@
 # @assistant-ui/core
 
+## 0.3.31
+
+### Patch Changes
+
+- [#9907](https://github.com/assistant-ui/assistant-ui/pull/9907) [`5c27b22`](https://github.com/assistant-ui/assistant-ui/commit/5c27b2220dff039b2a74152ab62ab588265c6424) - refactor(core): remove the unused `src/adapters/index.ts` barrel; the package exports are unchanged ([@okisdev](https://github.com/okisdev))
+
+- [#9915](https://github.com/assistant-ui/assistant-ui/pull/9915) [`1ebb427`](https://github.com/assistant-ui/assistant-ui/commit/1ebb427a7dfe8cb83cc53eb7363ea675b771546a) - refactor(core): split cloud engagement events and the local storage thread codec into their own modules; the package exports are unchanged ([@okisdev](https://github.com/okisdev))
+
+- [#9914](https://github.com/assistant-ui/assistant-ui/pull/9914) [`50ef493`](https://github.com/assistant-ui/assistant-ui/commit/50ef493dec29cad91853eba68d29250a04abb018) - refactor(core): move the external composer resource into its own module; the package exports are unchanged ([@okisdev](https://github.com/okisdev))
+
+- [#9911](https://github.com/assistant-ui/assistant-ui/pull/9911) [`4b231eb`](https://github.com/assistant-ui/assistant-ui/commit/4b231ebbaade388f049bbd174d792f992e32894b) - fix(core): mark `useLocalRuntime`, `useRemoteThreadListRuntime`, `useCloudThreadListAdapter` and `CloudFileAttachmentAdapter` as client modules, like `useExternalStoreRuntime` and `useCloudThreadListRuntime` ([@okisdev](https://github.com/okisdev))
+
+- [#9925](https://github.com/assistant-ui/assistant-ui/pull/9925) [`957d4f6`](https://github.com/assistant-ui/assistant-ui/commit/957d4f62e9058c8f514aef264ca53153c1a68d4d) - refactor(core): share six runtime algorithms between the legacy runtime and the store client; behavior and exports are unchanged ([@okisdev](https://github.com/okisdev))
+
+- [#9967](https://github.com/assistant-ui/assistant-ui/pull/9967) [`a107296`](https://github.com/assistant-ui/assistant-ui/commit/a107296e7fdfe4dd353e77eee86412ef291fbb48) - fix: read interactable update results that LangGraph and LangChain return as JSON text, so id-less updates stay attributed to the instance they resolved to ([@okisdev](https://github.com/okisdev))
+
+- [#9938](https://github.com/assistant-ui/assistant-ui/pull/9938) [`847f621`](https://github.com/assistant-ui/assistant-ui/commit/847f6213f9a07f7ecc1c19924a049b6a05ff784b) - feat(core): `unstable_interactableTool` takes an optional `name` for its interactable, so the creating tool can be named apart from it (`create_notepad` beside `update_notepad`) ([@Mohamed3nan](https://github.com/Mohamed3nan))
+
+- [#9969](https://github.com/assistant-ui/assistant-ui/pull/9969) [`9835bd9`](https://github.com/assistant-ui/assistant-ui/commit/9835bd983ea917ef37c0b21496ee0ce7abd81da3) - skip unchanged remote thread resources when the thread list host re-renders ([@okisdev](https://github.com/okisdev))
+
+- [#9927](https://github.com/assistant-ui/assistant-ui/pull/9927) [`1b62b6b`](https://github.com/assistant-ui/assistant-ui/commit/1b62b6b894e9ff73032848598f0acb99f8748c37) - share the history write chain between the ag-ui and a2a runtimes ([@okisdev](https://github.com/okisdev))
+
+- [#9867](https://github.com/assistant-ui/assistant-ui/pull/9867) [`0ba19fd`](https://github.com/assistant-ui/assistant-ui/commit/0ba19fdcb989979bf892676ab0a56a087ac24036) - Expose thread-list unarchive support and disable unarchive controls when the adapter cannot restore archived threads. ([@dhanushkumarsivaji](https://github.com/dhanushkumarsivaji))
+- Updated dependencies [[`0a6d4cb`](https://github.com/assistant-ui/assistant-ui/commit/0a6d4cb49bd7749e7e708448708e325c88752531)]:
+  - assistant-stream@0.3.54
+
 ## 0.3.30
 
 ### Patch Changes

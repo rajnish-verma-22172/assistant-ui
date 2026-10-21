@@ -1,5 +1,18 @@
 # @assistant-ui/ai-sdk
 
+## 0.0.15
+
+### Patch Changes
+
+- [#9929](https://github.com/assistant-ui/assistant-ui/pull/9929) [`da7318e`](https://github.com/assistant-ui/assistant-ui/commit/da7318e9325fd54e02b200929ab1cfd5ef569ddc) - refresh tool metadata from immutable maps and react to remote thread ids ([@okisdev](https://github.com/okisdev))
+
+- [#9869](https://github.com/assistant-ui/assistant-ui/pull/9869) [`0a6d4cb`](https://github.com/assistant-ui/assistant-ui/commit/0a6d4cb49bd7749e7e708448708e325c88752531) - chore: update dependencies ([@Yonom](https://github.com/Yonom))
+
+- [#9958](https://github.com/assistant-ui/assistant-ui/pull/9958) [`1115bae`](https://github.com/assistant-ui/assistant-ui/commit/1115bae00a8dc098bca3c9f15161d98cc866d726) - Prevent resumed stream replays from duplicating partial assistant content. ([@rupic-app](https://github.com/apps/rupic-app))
+- Updated dependencies [[`5c27b22`](https://github.com/assistant-ui/assistant-ui/commit/5c27b2220dff039b2a74152ab62ab588265c6424), [`1ebb427`](https://github.com/assistant-ui/assistant-ui/commit/1ebb427a7dfe8cb83cc53eb7363ea675b771546a), [`50ef493`](https://github.com/assistant-ui/assistant-ui/commit/50ef493dec29cad91853eba68d29250a04abb018), [`4b231eb`](https://github.com/assistant-ui/assistant-ui/commit/4b231ebbaade388f049bbd174d792f992e32894b), [`957d4f6`](https://github.com/assistant-ui/assistant-ui/commit/957d4f62e9058c8f514aef264ca53153c1a68d4d), [`0a6d4cb`](https://github.com/assistant-ui/assistant-ui/commit/0a6d4cb49bd7749e7e708448708e325c88752531), [`a107296`](https://github.com/assistant-ui/assistant-ui/commit/a107296e7fdfe4dd353e77eee86412ef291fbb48), [`847f621`](https://github.com/assistant-ui/assistant-ui/commit/847f6213f9a07f7ecc1c19924a049b6a05ff784b), [`9835bd9`](https://github.com/assistant-ui/assistant-ui/commit/9835bd983ea917ef37c0b21496ee0ce7abd81da3), [`1b62b6b`](https://github.com/assistant-ui/assistant-ui/commit/1b62b6b894e9ff73032848598f0acb99f8748c37), [`0ba19fd`](https://github.com/assistant-ui/assistant-ui/commit/0ba19fdcb989979bf892676ab0a56a087ac24036)]:
+  - @assistant-ui/core@0.3.31
+  - assistant-stream@0.3.54
+
 ## 0.0.14
 
 ### Patch Changes
